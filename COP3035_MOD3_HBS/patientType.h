@@ -11,7 +11,8 @@ public:
 
     }
 
-    patientType(int id, int age, dateType date, doctorType doctor) {
+    patientType(int id, int age, string first, string last, dateType date, doctorType doctor) {
+        personType::setName(first, last);
         patientAge = age;
         patientId = id;
         patientDate = date;

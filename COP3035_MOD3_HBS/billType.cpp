@@ -15,6 +15,10 @@ void billType::setPatientId(int id)
     patientId = id;
 }
 
+void print() {
+    string output = "";
+}
+
 void billType::setPatientBill(map<string, int> bill)
 {
     patientCharges = bill;

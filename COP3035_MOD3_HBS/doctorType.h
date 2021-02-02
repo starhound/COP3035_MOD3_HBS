@@ -1,3 +1,4 @@
+#pragma once
 #include "personType.h"
 
 class doctorType : public personType

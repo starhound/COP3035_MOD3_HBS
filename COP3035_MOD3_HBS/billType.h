@@ -10,6 +10,7 @@ public:
 	int getPatientId();
 	map<string, int> getPatientCharges();
 	void setPatientId(int id);
+	void print();
 	void setPatientBill(map<string, int> bill);
 
 private:
