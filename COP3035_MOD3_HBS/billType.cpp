@@ -1,4 +1,5 @@
 #include "billType.h"
+#include <iostream>
 
 int billType::getPatientId()
 {
@@ -15,8 +16,15 @@ void billType::setPatientId(int id)
     patientId = id;
 }
 
-void print() {
-    string output = "";
+void billType::print() const {
+    for (auto const& x : patientCharges)
+    {
+        std::cout << x.first  // string (key)
+            << ':'
+            << x.second // string's value 
+            << std::endl;
+    }
+
 }
 
 void billType::setPatientBill(map<string, int> bill)

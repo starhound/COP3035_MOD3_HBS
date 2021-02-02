@@ -9,7 +9,7 @@ public:
         personType::setName(first, last);
         specialty = spec;
     }
-    void print();
+    void print() const;
     string getSpecialy();
 
 private:
