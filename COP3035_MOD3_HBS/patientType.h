@@ -27,6 +27,7 @@ public:
     void setPatientId(int pId);
     void setPatientDoctor(doctorType pDoc);
     void setPatientDates(dateType pDate);
+    void print();
 
 private:
     int patientId;

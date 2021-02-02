@@ -1,4 +1,5 @@
 #include "dateType.h"
+#include <iostream>
 
 string dateType::getAdmitDate() {
 	return patientAdmitDate;
@@ -22,4 +23,10 @@ void dateType::setDateOfBirth(string pDOB) {
 
 void dateType::setDischargeDate(string pDischarge) {
 	patientDateOfBirth = pDischarge;
+}
+
+void dateType::print() {
+	cout << "DOB: " << patientDateOfBirth << endl;
+	cout << "Admit Date: " << patientAdmitDate << endl;
+	cout << "Discharge Date: " << patientDischargeDate << endl;
 }

@@ -2,7 +2,7 @@
 
 void personType::print() const
 {
-	cout << firstName << " " << lastName;
+	cout << firstName << " " << lastName << endl;
 }
 
 void personType::setName(string first, string last)

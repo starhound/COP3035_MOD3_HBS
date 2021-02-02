@@ -5,5 +5,7 @@ string doctorType::getSpecialy() {
 }
 
 void doctorType::print() const {
-	cout << "First Name: " << getFirstName() << " Last Name: " << getLastName() << " Specialty: " << specialty << endl;
+	cout << "Doctor Record: " << endl; 
+	personType::print();
+	cout << "Specialty: " << specialty << endl;
 }

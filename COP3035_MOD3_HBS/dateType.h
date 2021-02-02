@@ -22,6 +22,7 @@ public:
 	void setDateOfBirth(string pDOB);
 	void setDischargeDate(string pDischarge);
 	void setAdmitDate(string pAdmit);
+	void print();
 
 private:
 	string patientDateOfBirth;
