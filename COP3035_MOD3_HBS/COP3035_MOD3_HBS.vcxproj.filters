@@ -51,9 +51,4 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Desktop\Hospital-Billing-System-Dropbox-Assignment.pdf">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
 </Project>
