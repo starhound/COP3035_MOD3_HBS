@@ -17,14 +17,15 @@ void billType::setPatientId(int id)
 }
 
 void billType::print() const {
+    cout << "Bill Record:" << endl;
+    cout << "Patient ID #" << patientId << endl;
+    int total = 0;
     for (auto const& x : patientCharges)
     {
-        std::cout << x.first  // string (key)
-            << ':'
-            << x.second // string's value 
-            << std::endl;
+        cout << x.first << ':' << x.second << endl;
+        total += x.second;
     }
-
+    cout << "Bill Total: $" << total << endl;
 }
 
 void billType::setPatientBill(map<string, int> bill)
