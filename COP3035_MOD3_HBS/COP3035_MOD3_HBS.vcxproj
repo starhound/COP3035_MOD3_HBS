@@ -154,6 +154,9 @@
     <ClInclude Include="patientType.h" />
     <ClInclude Include="personType.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Hospital-Billing-System-Dropbox-Assignment.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
